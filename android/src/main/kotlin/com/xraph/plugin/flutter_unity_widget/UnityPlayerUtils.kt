@@ -62,6 +62,7 @@ class UnityPlayerUtils {
             }
 
             try {
+                activity.window.setFormat(PixelFormat.RGBA_8888)
                 unityPlayer = CustomUnityPlayer(activity!!, ule)
                 // unityPlayer!!.z = (-1).toFloat()
                 // addUnityViewToBackground(activity!!)
